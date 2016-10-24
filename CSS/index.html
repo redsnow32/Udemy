@@ -30,20 +30,28 @@
          .bold{
            font-weight: bold;
          }
-         .bluebox{
-           background-color: blue;
+         .purplebox{
+           background-color: #8000ff;
            width: 200px;
-           height: 200px
+           height: 200px;
+           float: left;
          }
          .redbox {
            background-color: red;
+           float: right;
+         }
+         .floatleft{
+           float: left;
+         }
+         .clear{
+           clear: both;
          }
         </style>
     </head>
 
     <body>
 
-       <div class="bluebox">
+       <div class="purplebox">
 
         <p class="large">This is some text</p>
 
@@ -54,8 +62,9 @@
         <p id="green" class="large">this is more text A.</p>
 
       </div>
+      <div class="clear"
 
-        <p>The third <span class="underline large bold">word</span> in this paragraph is underlined</p>
+        <p class="floatleft">The third <span class="underline large bold">word</span> in this paragraph is underlined</p>
 
 
 </body>
