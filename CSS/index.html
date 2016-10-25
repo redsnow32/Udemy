@@ -16,7 +16,7 @@
         <meta charset="utf-8" />
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <style >
+        <style>
 
          .large {
            font-size: 300%
@@ -34,19 +34,22 @@
            background-color: #8000ff;
            width: 200px;
            height: 200px;
-           float: left;
+           position: fixed;
+           z-index: 1;
+
+
          }
          .redbox {
            background-color: red;
-           float: right;
+           width: 300px;
+           height: 500px;
+           z-index: 2;
+
          }
-         .floatleft{
-           float: left;
-         }
-         .clear{
-           clear: both;
-         }
+
+
         </style>
+
     </head>
 
     <body>
@@ -57,14 +60,30 @@
 
        </div>
 
-       <div class="redbox"
+       <br /><br />
 
-        <p id="green" class="large">this is more text A.</p>
+      <div class="redbox"
+
+       <p id="green" class="large">this is more text A.</p>
 
       </div>
-      <div class="clear"
 
-        <p class="floatleft">The third <span class="underline large bold">word</span> in this paragraph is underlined</p>
+<br /><br />
+
+      <div class="redbox"
+
+       <p id="green" class="large">this is more text A.</p>
+
+     </div>
+     <br /><br />
+
+     <div class="redbox"
+
+      <p id="green" class="large">this is more text A.</p>
+
+    </div>
+
+        <p>The third <span class="underline large bold">word</span> in this paragraph is underlined</p>
 
 
 </body>
