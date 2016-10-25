@@ -8,46 +8,29 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!doctype html>
-    <html>
-    <head>
-        <title>Example Domain</title>
+      <style type="text/css">
 
-        <meta charset="utf-8" />
-        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <style>
-
-         .large {
-           font-size: 300%
+         div{
+           width: 100px;
+           height: 100px;
+           float: left;
+           margin: 10px;
          }
-         #green{
-           color: green;
-         }
-         .underline{
-           text-decoration: underline;
-         }
-         .bold{
-           font-weight: bold;
-         }
-         .purplebox{
-           background-color: #8000ff;
-           width: 200px;
-           height: 200px;
-           padding-left:100px; 
-
-         }
-         .redbox {
+         .redbox{
            background-color: red;
-           width: 300px;
-           height: 200px;
+           border: 2px black ridge;
 
          }
-         p {
-           padding: 0;
-           margin: 0;
+         .bluebox {
+           background-color: blue;
+           border-style: ridge solid dotted dashed;
+           border-width: 10px 5px 3px 1px;
+           border-color: red blue yellow green;
          }
-
+          .greenbox {
+          background-color: green;
+          border-radius: 10px;
+         }
 
         </style>
 
@@ -55,23 +38,11 @@
 
     <body>
 
-       <div class="purplebox">
+      <div class="redbox"> </div>
 
-        <p class="large">This is some text</p>
+      <div class="bluebox"> </div>
 
-        <p>more text here</p>
-
-       </div>
-
-       <br /><br />
-
-      <div class="redbox"
-
-       <p id="green" class="large">this is more text A.</p>
-
-      </div>
-
-        <p>The third <span class="underline large bold">word</span> in this paragraph is underlined</p>
+      <div class="greenbox"> </div>
 
 
 </body>
