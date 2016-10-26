@@ -13,22 +13,30 @@
          p {
            font-family: "Times New Roman", Times, serif;
          }
-        div {
-          background-color: red;
-          width: 300px;
-          height: 300px;
-          border-radius: 20%;
-          float: right;
+          .bold {
+          font-weight: bold;
+          color: green;
         }
+        .italic {
+          font-style: italic;
+          font-size: 20px;
+        }
+        .underline {
+          text-decoration: underline;
+        }
+
+
 </style>
 
 <body>
 
-<p>This is some text</p>
+<p class="bold">This is some <span class="underline">underlined</span> text</p>
 
 <div>
 
-<p>Here is some more</p>
+<p class="italic">Here is some more</p>
+
+<p class="bold">Here is a paragraph with all <span class="underline" class="italic">3 options!!</span></p>
 
 </div>
 </body>
