@@ -13,32 +13,34 @@
          p {
            font-family: "Times New Roman", Times, serif;
          }
-          .bold {
-          font-weight: bold;
+          .redbox {
+          height: 50px;
+          width: 300px;
+          background-color: red;
+          text-align: center;
+        }
+        a:visited{
           color: green;
         }
-        .italic {
-          font-style: italic;
-          font-size: 20px;
+        a:hover {
+          color: red;
+          font-size: 50px;
         }
-        .underline {
-          text-decoration: underline;
-        }
-
 
 </style>
+</head>
 
 <body>
 
-<p class="bold">This is some <span class="underline">underlined</span> text</p>
+<a href="http://www.google.com" target="_blank">Google</a>
 
+<div class="redbox">
+This is some text
+</div>
+
+<p>This is more text</p>
 <div>
-
-<p class="italic">Here is some more</p>
-
-<p class="bold">Here is a paragraph with all <span class="underline" class="italic">3 options!!</span></p>
-
+<p>Here is even more text</p>
 </div>
 </body>
-
 </html>
